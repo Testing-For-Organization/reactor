@@ -18,7 +18,7 @@
 		<guava-version>15.0</guava-version>
 		<guice-version>3.0</guice-version>
 		<hc-fluent-version>4.5.14</hc-fluent-version>
-		<jackson-version>2.15.0</jackson-version>
+		<jackson-version>2.19.0</jackson-version>
 		<javassist-version>3.18.1-GA</javassist-version>
 		<jongo-version>1.0</jongo-version>
 		<json-patch-version>1.7</json-patch-version>
@@ -231,6 +231,11 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-annotations</artifactId>
+			<version>${jackson-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
 			<version>${jackson-version}</version>
 		</dependency>
 		<dependency>
