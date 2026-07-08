@@ -1,0 +1,7 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example.dummy</groupId>
+  <artifactId>dummy-policy-test</artifactId>
+  <version>1.0.0</version>
+  <packaging>jar</packaging>
+</project>
