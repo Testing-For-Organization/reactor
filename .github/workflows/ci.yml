@@ -19,6 +19,4 @@ jobs:
           java-version: "8"
           cache: maven
 
-      - name: Force fail (test only — remove after)
-        run: exit 1
 
