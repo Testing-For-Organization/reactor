@@ -24,8 +24,8 @@
 		<json-patch-version>1.7</json-patch-version>
 		<jersey-version>1.17.1</jersey-version>
 		<junit-version>4.10</junit-version>
-		<logback-version>1.0.13</logback-version>
-		<slf4j-version>1.7.5</slf4j-version>
+		<logback-version>1.5.18</logback-version>
+		<slf4j-version>2.0.17</slf4j-version>
 		<mongo-driver-version>2.11.3</mongo-driver-version>
 	</properties>
 
@@ -198,11 +198,7 @@
 			<version>${junit-version}</version>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-  			<groupId>com.example.dummy</groupId>
-  			<artifactId>dummy-policy-test</artifactId>
-  			<version>1.0.0</version>
-		</dependency>
+
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-classic</artifactId>
