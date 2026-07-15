@@ -29,6 +29,46 @@
 		<mongo-driver-version>2.11.3</mongo-driver-version>
 	</properties>
 
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>io.netty</groupId>
+				<artifactId>netty-handler</artifactId>
+				<version>4.2.16.Final</version>
+			</dependency>
+			<dependency>
+				<groupId>io.netty</groupId>
+				<artifactId>netty-codec</artifactId>
+				<version>4.2.16.Final</version>
+			</dependency>
+			<dependency>
+				<groupId>io.netty</groupId>
+				<artifactId>netty-codec-http</artifactId>
+				<version>4.2.16.Final</version>
+			</dependency>
+			<dependency>
+				<groupId>io.netty</groupId>
+				<artifactId>netty-common</artifactId>
+				<version>4.2.16.Final</version>
+			</dependency>
+			<dependency>
+				<groupId>io.netty</groupId>
+				<artifactId>netty-buffer</artifactId>
+				<version>4.2.16.Final</version>
+			</dependency>
+			<dependency>
+				<groupId>io.netty</groupId>
+				<artifactId>netty-resolver</artifactId>
+				<version>4.2.16.Final</version>
+			</dependency>
+			<dependency>
+				<groupId>io.netty</groupId>
+				<artifactId>netty-transport</artifactId>
+				<version>4.2.16.Final</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
 	<reporting>
 		<plugins>
 			<plugin>
