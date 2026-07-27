@@ -25,6 +25,7 @@
 		<jersey-version>1.17.1</jersey-version>
 		<junit-version>4.10</junit-version>
 		<logback-version>1.0.13</logback-version>
+		<netty-version>4.2.1.Final</netty-version>
 		<slf4j-version>1.7.5</slf4j-version>
 		<mongo-driver-version>2.11.3</mongo-driver-version>
 	</properties>
@@ -186,6 +187,21 @@
 			<groupId>org.elasticsearch</groupId>
 			<artifactId>elasticsearch</artifactId>
 			<version>${es-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-handler</artifactId>
+			<version>${netty-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-codec</artifactId>
+			<version>${netty-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-codec-http</artifactId>
+			<version>${netty-version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.elasticsearch.client</groupId>
